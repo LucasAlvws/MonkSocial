@@ -10,10 +10,12 @@ from django.db import models
     - foto perfil img
     - foto capa img
     - info char 500
+    - data cadastro
 '''
 
 #publicaçoes
-''' - publicao texto
+''' - publicao texto many to one user
     - n° likes
     - comentarios
+    - data pub  
 '''
